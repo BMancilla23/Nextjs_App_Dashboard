@@ -1,4 +1,5 @@
-import { CartCounter } from "@/app/shopping-cart/components";
+
+import { CartCounter } from "@/components";
 import { Metadata } from "next";
 // emmet prc create a page component
 
