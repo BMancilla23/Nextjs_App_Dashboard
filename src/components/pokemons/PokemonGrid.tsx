@@ -1,6 +1,7 @@
 import React from 'react'
-import { SimplePokemon } from '../components/pokemons/interfaces';
+
 import { PokemonCard } from './PokemonCard';
+import { SimplePokemon } from '@/interfaces';
 
 type Props = {
   pokemons: SimplePokemon[];
