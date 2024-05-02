@@ -7,6 +7,17 @@ type Props = {
   params: { id: string }
 }
 
+// Shorcut gsp create a function generateStaticParams
+//! En build time
+export async function generateStaticParams(){
+  
+  const static51Pokemons = Array.from({length: 151}).map((v, i) => `${i+1}`)
+
+  return static51Pokemons.map(id  => ({
+    id: id
+  }))
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   try {
