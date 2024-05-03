@@ -1,5 +1,5 @@
 import React from 'react'
-import { Timer, LayoutDashboard, Laptop, Dog } from 'lucide-react'
+import { Timer, LayoutDashboard, Laptop, Dog, Heart } from 'lucide-react'
 import Image from 'next/image'
 import SidebarMenuItem from './SidebarMenuItem'
 
@@ -23,6 +23,12 @@ const MENUITEMS = [
     icon: <Dog size={30}/>,
     title: 'Pokemons',
     subtitle: 'Static Generation'
+  },
+  {
+    path: '/dashboard/favorites',
+    icon: <Heart size={30}/>,
+    title: 'Favorites',
+    subtitle: 'Global State'
   }
 ] as const
 
