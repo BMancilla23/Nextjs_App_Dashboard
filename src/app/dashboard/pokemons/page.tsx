@@ -2,7 +2,6 @@
 import { PokemonGrid } from "@/components";
 import { PokemonsResponse, SimplePokemon } from "@/interfaces";
 
-
 export const metadata = {
  title: '151 Pokemons',
  description: 'Nulla consectetur laborum esse ea ipsum qui sunt qui irure incididunt irure laboris.',
